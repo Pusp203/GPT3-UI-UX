@@ -15,14 +15,25 @@ const Navbar = () => {
         <Link to="/" className="logo">
           <img src={gpt} alt="NavLogo" />
         </Link>
+        {/* <a href=""></a> */}
         <div className="nav__links-container">
-          <NavLink to="/Home">Home</NavLink>
-          <NavLink to="/whatIsGpt">What Is GPT?</NavLink>
-          <NavLink to="/caseStudies">Case Studies</NavLink>
-          <NavLink to="/library">Library</NavLink>
+          <NavLink className="linkss" to="/Home">
+            Home
+          </NavLink>
+          <NavLink className="linkss" to="/whatIsGpt">
+            What Is GPT?
+          </NavLink>
+          <NavLink className="linkss" to="/caseStudies">
+            Case Studies
+          </NavLink>
+          <NavLink className="linkss" to="/library">
+            Library
+          </NavLink>
         </div>
         <div className="nav__links-container-link">
-          <NavLink to="/signIn">Sign in</NavLink>
+          <NavLink className="linkss" to="/signIn">
+            Sign in
+          </NavLink>
           <button className="signUp-btn">Sign up</button>
         </div>
         <div className="navbar-menu">

@@ -1,5 +1,5 @@
 .navbar {
-  background-color: wheat;
+  background: #002853;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -15,8 +15,9 @@
   .nav__links-container {
     display: flex;
     gap: 20px;
-    > a {
+    .linkss {
       text-decoration: none;
+      color: white;
     }
     @media screen and (max-width: 640px) {
       display: none;
@@ -26,14 +27,16 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    > a {
+    .linkss {
       text-decoration: none;
+      color: white;
     }
     > .signUp-btn {
       background: #ff4820;
       border-radius: 5px;
       padding: 1rem;
       border: none;
+      color: white;
     }
     @media screen and (max-width: 768px) {
       display: none;
@@ -41,6 +44,7 @@
   }
   .navbar-menu {
     display: none;
+    color: whitesmoke;
     @media screen and (max-width: 1024px) {
       display: block;
     }
@@ -61,6 +65,7 @@
         align-items: flex-start;
         .ri-closeLine {
           position: absolute;
+          color: black;
           right: 124px;
           top: 30px;
         }
