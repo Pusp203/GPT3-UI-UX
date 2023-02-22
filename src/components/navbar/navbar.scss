@@ -15,10 +15,18 @@
   .nav__links-container {
     display: flex;
     gap: 20px;
-    .linkss {
+    .nav-link {
       text-decoration: none;
-      color: white;
+      color: #fff;
+      &:hover {
+        color: red;
+      }
+      &:focus {
+        outline: none;
+        border: 2px solid blue;
+      }
     }
+
     @media screen and (max-width: 640px) {
       display: none;
     }
@@ -27,10 +35,14 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    .linkss {
+    .nav-link {
       text-decoration: none;
-      color: white;
+      color: #fff;
+      &:hover {
+        color: red;
+      }
     }
+
     > .signUp-btn {
       background: #ff4820;
       border-radius: 5px;
@@ -55,7 +67,7 @@
       background: whitesmoke;
       padding: 40px;
       width: 100vw;
-      height: 50vh;
+      height: 70vh;
 
       &-links {
         display: flex;
@@ -66,7 +78,7 @@
         .ri-closeLine {
           position: absolute;
           color: black;
-          right: 124px;
+          right: 127px;
           top: 30px;
         }
 

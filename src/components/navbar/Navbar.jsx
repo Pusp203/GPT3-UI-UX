@@ -17,21 +17,21 @@ const Navbar = () => {
         </Link>
         {/* <a href=""></a> */}
         <div className="nav__links-container">
-          <NavLink className="linkss" to="/Home">
+          <NavLink className="nav-link" to="/Home">
             Home
           </NavLink>
-          <NavLink className="linkss" to="/whatIsGpt">
+          <NavLink className="nav-link" to="/whatIsGpt">
             What Is GPT?
           </NavLink>
-          <NavLink className="linkss" to="/caseStudies">
+          <NavLink className="nav-link" to="/caseStudies">
             Case Studies
           </NavLink>
-          <NavLink className="linkss" to="/library">
+          <NavLink className="nav-link" to="/library">
             Library
           </NavLink>
         </div>
         <div className="nav__links-container-link">
-          <NavLink className="linkss" to="/signIn">
+          <NavLink className="nav-link" to="/signIn">
             Sign in
           </NavLink>
           <button className="signUp-btn">Sign up</button>
