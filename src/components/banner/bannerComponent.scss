@@ -1,0 +1,77 @@
+.Banner {
+  // max-width: 779.29px;
+  // padding-top: 120px;
+  padding-top: 100px;
+  @media screen and (max-width: 990px) {
+    padding: 0px;
+  }
+  &__component {
+    max-width: 614px;
+    @media screen and (max-width: 1080px) {
+      max-width: 100%;
+    }
+    > h1 {
+      font-weight: 800;
+      font-size: clamp(42px, 5vw, 62px);
+      line-height: 75px;
+      letter-spacing: -0.04em;
+
+      background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    > p {
+      // width: 600px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+
+      color: #81afdd;
+      padding-top: 33px;
+      padding-bottom: 40px;
+    }
+  }
+  &__form {
+    padding-bottom: 38px;
+
+    display: flex;
+    justify-content: space-between;
+    > input {
+      color: #3d6184;
+      border: none;
+      padding: 20px;
+      outline: none;
+      background: #052d56;
+
+      // border-radius: 5px 0px 0px 5px;
+      flex: 1;
+    }
+    &-btn {
+      background: #ff4820;
+      // border-radius: 5px 0px 0px 5px;
+      /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+      padding: 20px;
+      border: none;
+    }
+  }
+  &__signUp {
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    @media screen and (max-width: 990px) {
+      max-width: 100%;
+    }
+    > img {
+      width: 181px;
+      height: 38px;
+    }
+    > p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 38px;
+      color: #ffffff;
+    }
+  }
+}

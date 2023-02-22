@@ -1,0 +1,39 @@
+.banner {
+  overflow-y: auto;
+  background: #002853;
+  max-width: 1280px;
+  margin: auto;
+
+  &-main {
+    // position: relative;
+    background-image: url(/src/assets/banner.png);
+    background-size: 647px 702px;
+    background-position: right;
+    // padding: 0rem 2rem;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 1080px) {
+      background-image: none;
+    }
+    &__header {
+      padding-top: 120px;
+    }
+    // .ban-img {
+    //   overflow: auto;
+    //   position: absolute;
+
+    //   top: 112px;
+    //   right: 0;
+    //   width: 647px;
+    //   height: 702px;
+    //   @media screen and (max-width: 1024px) {
+    //     display: none;
+    //   }
+
+    // }
+  }
+}
