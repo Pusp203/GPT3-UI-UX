@@ -1,26 +1,25 @@
 .banner {
-  overflow-y: auto;
+  // overflow-y: auto;
   background: #002853;
-  max-width: 1280px;
+  max-width: 1440px;
   margin: auto;
+  // padding: 0rem 2rem;
 
   &-main {
-    // position: relative;
+    padding: 9rem 2rem;
     background-image: url(/src/assets/banner.png);
     background-size: 647px 702px;
     background-position: right;
-    // padding: 0rem 2rem;
     background-repeat: no-repeat;
-    // background-attachment: fixed;
-    padding: 0rem 2rem;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     @media screen and (max-width: 1080px) {
       background-image: none;
+      padding: 70px 20px;
     }
     &__header {
-      padding-top: 120px;
     }
     // .ban-img {
     //   overflow: auto;

@@ -10,8 +10,9 @@ const Navbar = () => {
     setToggleMenu((prev) => setToggleMenu(!prev));
   };
   return (
+    // <div className=" sticky-header">
     <div className="navbar">
-      <div className="navbar__links">
+      <div className="navbar__links main">
         <Link to="/" className="logo">
           <img src={gpt} alt="NavLogo" />
         </Link>
